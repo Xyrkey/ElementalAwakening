@@ -1,5 +1,5 @@
 local DataStuff = {
-   MagicCircle = 'Time', -- pretty sure this is local fyi
+   MagicCircle = 'Eclipse', 
    CanMove = true,
    MaxChargeEndlag = 0,
    MaxCharge = 0,
@@ -30,5 +30,5 @@ for _, Tool in pairs(Player.Character:GetChildren()) do
    end
 end
 for _, Tool in pairs(Player.Backpack:GetChildren()) do
-   ManipulateTool(Tool) -- safe to assume something in the backpack is a tool
+   ManipulateTool(Tool) 
 end
