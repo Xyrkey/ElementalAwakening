@@ -1,5 +1,5 @@
 local DataStuff = {
-   MagicCircle = 'Gravity', -- pretty sure this is local fyi
+   MagicCircle = 'Time', -- pretty sure this is local fyi
    CanMove = true,
    MaxChargeEndlag = 0,
    MaxCharge = 0,
