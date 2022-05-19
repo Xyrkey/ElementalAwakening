@@ -1,8 +1,8 @@
 local DataStuff = {
    MagicCircle = 'Reality Collapse', 
    CanMove = true,
-   MaxChargeEndlag = 0,
-   MaxCharge = 15,
+   MaxChargeEndlag = 1,
+   MaxCharge = 20,
    CastTime = 0,
    EndLag = 0
 }
