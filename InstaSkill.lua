@@ -1,8 +1,8 @@
 local DataStuff = {
    MagicCircle = 'Reality Collapse', 
    CanMove = true,
-   MaxChargeEndlag = 1,
-   MaxCharge = 20,
+   MaxChargeEndlag = 0,
+   MaxCharge = 15,
    CastTime = 0,
    EndLag = 0
 }
@@ -25,7 +25,7 @@ local function ManipulateTool(Tool)
 end
 
 for _, Tool in pairs(Player.Character:GetChildren()) do
-   if Tool:IsA('Time Bomb') then
+   if Tool:IsA('Tool') then
        ManipulateTool(Tool)
    end
 end
